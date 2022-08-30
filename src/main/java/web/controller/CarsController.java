@@ -9,7 +9,6 @@ import web.service.CarService;
 
 @Controller
 @RequestMapping("/cars")
-//@RequestMapping(value = "/cars", method = RequestMethod.GET, params = {"count"})
 public class CarsController {
     private final CarService carService;
 
